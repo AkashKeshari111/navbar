@@ -1,8 +1,8 @@
 import React from "react"
 
-let Links=()=>{
+let Links=(props)=>{
     return ( <div>
-        <a href="">Services</a><a href="">Products</a><a href="">About</a>
+        <a href="#">{props.a1}</a>
     </div>)
 }
 
